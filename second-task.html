@@ -5,13 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   
     <div class="w3-container">
-        <a href="file:///home/micsik/Flow/HTML/Teszt/HTML-and-CSS-Teszt/first-task.html" class="button">Vissza</a>
+        <input type="button" value="Vissza" onclick="window.location.href='file:///home/micsik/Flow/HTML/Teszt/HTML-and-CSS-Teszt/first-task.html'" />
       </div>
+  
+      <div>
+          <form action="#" method="post" target="_blank">
+      
+            <div>
+              <p>Becenév:</p>
+              <td><input type="text" name="Nickname" /></td>
+            </div>
+            <div>
+               Neme: <br>
+                  <input type="radio" name="Gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" id="female" value="female">
+                <label for="female">Female</label> 
+                
+            </div>
+            <div>
+                <input type="button" value="submit" onclick="window.location.href='http://www.flowacademy.hu'" />
+              </div>
+        </div>
+      </form>
+<style>
+div {
+  height: 500px;
+  width: 500px;
+}
+</style>
 
 </body>
 </html>
